@@ -1,0 +1,132 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {	
+  list-style: none;
+}
+
+/*css記述欄↓↓↓↓↓*/
+
+header {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header h2 {
+	float: left;
+}
+
+.header-text li{
+	padding-right: 30px;
+	padding-top: 10px;
+	float: right;
+	list-style: none;
+}
+
+.main-img {
+	position: relative;
+}
+
+.main-text {
+	position: absolute;
+    width: 100%;
+    left: 0; 
+    top: calc(50% - 25px); 
+    text-align: center;
+	}
+.main-text h1 {
+	padding-bottom: 25px;
+}
+
+.deitora {
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.top {
+	margin: 0 auto;
+	width:  1000px;
+	display: flex;	
+}
+
+.top img {
+	padding-right: 10px;
+}
+
+.top p {
+	padding-left: 10px;
+}
+
+.coures {
+	text-align: center;
+}
+
+.list-img {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.list-img > li {
+  width: 32%;
+}
+
+.list-img > li > img {
+  width:100%;
+}	
+
+.inquiry {
+	text-align: center;
+	
+}
+
+.inquiry h1 {
+    padding-bottom: 30px;
+    
+}
+
+.input {
+	width:  550px;
+	height: 35px;
+	border-radius: 15px;
+	outline: none;
+	border: 2px solid #CCCCCC;
+}
+
+.btn {
+	text-align: center;
+}
+
+.btn-free {
+	display: inline-block;
+	width:  300px;
+	height: 70px;
+	margin-top: 30px;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+    border-bottom: solid 4px #627295;
+	background-color: #FF8856;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-free:active {
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+
