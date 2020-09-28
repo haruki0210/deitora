@@ -129,4 +129,11 @@ header h2 {
   border-bottom: none;
 }
 
+/*スマホ用レスポンシブ*/
+
+@media (max-width: 670px) {
+	.list-img {
+		width: 100px;
+	}
+}
 
